@@ -1,0 +1,24 @@
+﻿已經開始建置於 2018/3/31 下午 02:58:50。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\robotcontrol\remoteApiSharedLib-64.vcxproj"。
+     1>ClCompile:
+         D:\visual\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\robotcontrol\remoteApi" /I"C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\robotcontrol\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D REMOTEAPISHAREDLIB_EXPORTS /D NON_MATLAB_PARSING /D MAX_EXT_API_CONNECTIONS=255 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt remoteApi\extApi.c remoteApi\extApiPlatform.c
+         extApi.c
+         extApiPlatform.c
+         Adding library: Winmm.lib
+         Adding library: Ws2_32.lib
+     1>remoteApi\extApiPlatform.c(231): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\visual\VC\include\stdio.h(211) : 請參閱 'fopen' 的宣告
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.dll) does not match the Linker's OutputFile property value (C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApi.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(remoteApiSharedLib-64) does not match the Linker's OutputFile property value (remoteApi). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\visual\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\\remoteApi.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.lib" /MACHINE:X64 /DLL x64\Release\extApi.obj
+         x64\Release\extApiPlatform.obj
+            正在建立程式庫 C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.lib 和物件 C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.exp
+         正在產生程式碼
+         已完成程式碼產生
+         remoteApiSharedLib-64.vcxproj -> C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\x64\Release\remoteApiSharedLib-64.dll
+     1>專案 "C:\Users\Lin\Documents\Visual Studio 2013\Projects\robotcontrol\robotcontrol\remoteApiSharedLib-64.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.96
